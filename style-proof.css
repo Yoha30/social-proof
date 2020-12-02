@@ -1,0 +1,104 @@
+body{
+	background-image: url('images/bg-pattern-bottom-desktop.svg'),url('images/bg-pattern-top-desktop.svg');
+	background-repeat: no-repeat,no-repeat;
+	background-attachment: fixed,fixed;
+	background-position: bottom -40px right 0px,top -20px left -50px ;
+	background-size: 80% 90% , 40% 50%;
+	padding: 3% 8%;
+}
+#header {
+	height: 265px;
+	clear: both;
+}
+h1{
+	width:70%;
+	color:hsl(300, 43%, 22%);
+	font-size: 50px;
+	margin:0px;
+
+}
+#para{
+	color:hsl(303, 10%, 53%);
+	width:70%;
+}
+.box{
+	width:350px;
+	border-radius:8px;
+	padding:14px;
+	background-color: hsl(300, 24%, 96%);
+	font-weight: bold;
+	color:hsl(300, 43%, 22%);
+	margin-bottom: 15px;
+}
+#reviews{
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.half{
+	display: inline-block;
+	width: 48%;
+	height: 265px;
+	float: left;
+}
+.img{
+	vertical-align: middle;
+}
+.box .img:last-child {
+	margin-right: 20px;
+}
+.box span{
+	vertical-align: middle;
+}
+.box:nth-child(2){
+	margin-left: 20px;
+}
+.box:nth-child(3){
+	margin-left: 40px;
+}
+.info{
+	background-color: hsl(300, 43%, 22%);
+	width:350px;
+	display: inline-block;
+	color: hsl(0, 0%, 100%);
+	height: 250px;
+	vertical-align: middle;
+	font-size: 18px;
+	border-radius: 8px;	
+	margin: 0px;
+}
+.person{
+	border-radius:50px;
+	width: 70%;
+}
+.verified{
+	color:hsl(333, 80%, 67%);
+	margin: 0px;
+}
+.name{
+	text-align: left;
+	color: white;
+	margin: 0px;
+	vertical-align: middle;
+}
+.user-info {
+	margin: 20px;
+}
+.img-holder{
+	display: inline-block;
+	width: 20%;
+}
+.text-holder{
+	display: inline-block;
+	width: 78%;
+}
+.desc{
+	padding: 0px 20px;
+}
+.info:nth-child(2){
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.info:nth-child(3){
+	margin-left:25px;
+	margin-top:80px;
+}
